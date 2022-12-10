@@ -202,12 +202,16 @@ main {
 /* Responsive media queries */
 
 @media (min-width: 768px) {
+	/* Base */
+
 	main {
 		padding: 4rem 1.3rem;
 		gap: 1.3rem;
 		grid-template-columns: repeat(4, 1fr);
 		grid-template-rows: repeat(2, fit-content(100%));
 	}
+
+	/* Testimonials */
 
 	#testimonial1 {
 		background:
